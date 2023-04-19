@@ -20,6 +20,7 @@ $oldalak = array(
 	'/' => array('fajl' => 'cimlap', 'szoveg' => 'Főoldal', 'menun' => array(1,1)), //1
 	'starship' => array('fajl' => 'starship', 'szoveg' => 'Starship', 'menun' => array(1,1)), //2
 	'galeria' => array('fajl' => 'galeria', 'szoveg' => 'Galéria', 'menun' => array(1,1)), //3
+    'upload' => array('fajl' => 'upload', 'szoveg' => '', 'menun' => array(0,0)), //3.1
     'kapcsolat' => array('fajl' => 'kapcsolat', 'szoveg' => 'Kapcsolat', 'menun' => array(1,1)), //4
     'message' => array('fajl' => 'message', 'szoveg' => '', 'menun' => array(0,0)), //5
     'uzenetek' => array('fajl' => 'uzenetek', 'szoveg' => 'Üzenetek', 'menun' => array(1,1)), //6

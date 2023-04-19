@@ -35,6 +35,9 @@
     </div>
 <div class="col">
     <img src="./images/kapcsolat.jpg">
-</div>     
+</div>    
+</div>  
+<script src="./js/validate_message.js"></script>
+</div>    
 </body>
     
