@@ -3,6 +3,15 @@
 
 <h1>Galéria</h1>
 
+<?php if(isset($_SESSION['login'])) { ?>
+        <h3>Feltöltés</h3>
+    <form action="?oldal=upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*">
+        <input type="submit" value="Upload">
+    </form>
+<?php } ?>
+
+
 <h3>Feltöltött képek</h3>
 
 <body>
