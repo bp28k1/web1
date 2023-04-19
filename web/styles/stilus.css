@@ -1,0 +1,134 @@
+header {
+    border-radius: 10px;
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+
+header img {
+    float: left;
+    margin: 20px 10px 0px 10px;
+}
+
+div#wrapper {
+    margin: 10px;
+
+}
+
+aside {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.nav {
+    margin: 0px 10px 0px 0px;
+    top: 0px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 15px 0px;
+
+    display: flex; 
+    justify-content: space-between;
+}
+
+nav ul li {
+    padding: 0px 15px;
+    margin: 0;
+}
+
+nav ul li.active {
+    border-bottom: 5px solid whitesmoke;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+}
+
+div#content {
+    /* display: table-cell;*/
+    display: table-cell;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #7c7f85;
+    padding: 10px;
+    color: white;
+}
+
+
+/* 
+Style for small screens
+*/
+@media (max-width: 520px) {
+    div#content {
+      display: block;
+    }
+    iframe {
+        width: 300px;
+        height: 200px;
+    }
+    video {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+div#content img{
+    float: right;
+    width: 20em;
+    height: auto;
+    margin: 0 0 15px 15px;
+    padding: 3px;
+    border: 3px solid white;
+}
+
+footer {
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px 20px;
+    background-color: black;
+    color: white;
+}
+
+/*set the width of each column*/
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/*clear the floats after each row*/
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* unvisited link */
+a:link {
+    color: blue;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: blue;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: white;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }

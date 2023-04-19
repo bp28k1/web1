@@ -1,0 +1,38 @@
+version: "3.11"
+
+services:
+  web:
+    #image: php:7.4-apache
+    build: 
+      context: .
+      dockerfile: Dockerfile
+      no_cache: true
+    container_name: nje-web1-web
+    ports:
+      - "80:80"
+    volumes:
+      - ./custom-httpd.conf:/usr/local/apache2/conf/httpd.conf
+      - ./web:/var/www/html
+    networks:
+      mynetwork:
+        ipv4_address: 10.0.0.10
+    depends_on:
+      - db
+  db:
+    image: mysql:latest
+    container_name: nje-web1-db
+    environment:
+      MYSQL_ROOT_PASSWORD: test
+      MYSQL_DATABASE: archive-db
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      mynetwork:
+        ipv4_address: 10.0.0.11
+
+networks:
+  mynetwork:
+    ipam:
+      driver: default
+      config:
+        - subnet: 10.0.0.0/28
