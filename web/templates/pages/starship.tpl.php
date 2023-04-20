@@ -18,5 +18,12 @@
 <p>A rakétarendszer teljesen újrafelhasználható módban több mint 100 tonna hasznos terhet tud majd alacsony Föld körüli pályára juttatni. A rakéta fejlesztése a vállalat két texasi (McGregor és Boca Chica), valamint floridai (Space Coast) telephelyén történik.</p>
 
 <p>Forrás: <a href="https://hu.wikipedia.org/wiki/Starship_(rak%C3%A9tarendszer)" target="_blank">Wikipedia</a></p>
+
+<h4>Első integrált tesztrepülés</h4>
+
+<p>2023. április 20-án a SpaceX csapata végrehajtotta az első Starship és Super Heavy integrált tesztrepülését. A tesztrepülés hatalmas előrelépéssel és több meghatározó sikerrel ért véget a jövőre vonatkozóan. Rengeteg adatot gyűjtöttek, ami jelentősen segíteni fogja a fejlesztést további menetét.</p>
+
+<div style="display:flex; justify-content:center; align-items:center;"><img src="./images/starship_420.jpg" style="width:80%;"></div>
+
     </div>    
 </body>
